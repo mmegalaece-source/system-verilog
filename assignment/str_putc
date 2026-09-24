@@ -1,0 +1,9 @@
+// Code your design here
+module tb;
+  string str;
+  initial begin
+    str = "Megala";
+    str.putc(0, "B");
+    $display("String = %s", str);
+  end
+endmodule
