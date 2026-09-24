@@ -1,0 +1,24 @@
+// Code your design here
+module enum_example;
+  typedef enum {
+    IDLE,
+    START,
+    TRANSFER,
+    DONE
+  } state_t;
+  state_t state;
+  initial begin
+    state = IDLE;
+    $display("State = %s", state.name());
+
+    state = START;
+    $display("State = %s", state.name());
+
+    state = TRANSFER;
+    $display("State = %s", state.name());
+
+    state = DONE;
+    $display("State = %s", state.name());
+  end
+
+endmodule
