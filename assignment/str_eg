@@ -1,0 +1,9 @@
+// Code your design here
+module tb;
+  string str;
+  initial begin
+    str = "SystemVerilog";
+    $display("String = %s", str);
+    $display("Length = %0d", str.len());
+  end
+endmodule
