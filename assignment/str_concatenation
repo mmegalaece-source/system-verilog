@@ -1,0 +1,12 @@
+// Code your design here
+module tb;
+  string str1;
+  string str2;
+  string result;
+  initial begin
+    str1 = "System";
+    str2 = "Verilog";
+    result = {str1, str2};
+    $display("Result = %s", result);
+  end
+endmodule
