@@ -1,0 +1,12 @@
+// Code your design here
+module typedef_example;
+  typedef int data_t;
+  data_t a;
+  data_t b;
+  initial begin
+    a = 10;
+    b = 20;
+    $display("a = %0d", a);
+    $display("b = %0d", b);
+  end
+endmodule
