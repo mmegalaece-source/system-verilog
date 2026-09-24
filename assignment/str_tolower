@@ -1,0 +1,9 @@
+// Code your design here
+module tb;
+  string str;
+  initial begin
+    str = "MEGALA";
+    $display("Original = %s", str);
+    $display("Lowercase = %s", str.tolower());
+  end
+endmodule
