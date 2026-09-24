@@ -1,0 +1,13 @@
+//packed 8-bit vector array with 4 elements
+// Code your design here
+module tb;
+  bit [7:0] data [4];
+  initial begin
+    data[0] = 8'h11;
+    data[1] = 8'h22;
+    data[2] = 8'h33;
+    data[3] = 8'h44;
+    foreach (data[i])
+      $display("data[%0d] = %h", i, data[i]);
+  end
+endmodule
