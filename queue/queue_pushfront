@@ -1,0 +1,9 @@
+module queue_example;
+    int q[$];
+    initial begin
+        q.push_back(20);
+        q.push_back(30);
+        q.push_front(10);
+        $display("Queue = %p", q);
+    end
+endmodule
