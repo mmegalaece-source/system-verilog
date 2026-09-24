@@ -1,0 +1,9 @@
+// Code your design here
+module vector;
+  typedef bit[7:0] byte_t;
+  byte_t data;
+  initial begin
+    data=8'h10;
+    $display("%h",data);
+  end
+endmodule
