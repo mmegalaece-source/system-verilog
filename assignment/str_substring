@@ -1,0 +1,8 @@
+module tb;
+  string str;
+  initial begin
+    str = "SystemVerilog";
+    $display("String = %s", str);
+    $display("Substring = %s", str.substr(0, 5));
+  end
+endmodule
