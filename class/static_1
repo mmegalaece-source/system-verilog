@@ -1,0 +1,15 @@
+class counter;
+   static int count;
+  function new();
+    count++;
+  endfunction
+  endclass
+module tb;
+  counter c1,c2,c3;
+  initial begin
+    c1=new();
+  c2=new();
+  c3=new();
+  $display("count=%0d",counter::count);
+  end
+endmodule
