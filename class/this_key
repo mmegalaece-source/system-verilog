@@ -1,0 +1,16 @@
+class name;
+  bit[31:0] data;
+  int addr;
+  function new(bit[31:0]data,int addr);
+    this.data=data;
+    this.addr=addr;
+  endfunction
+endclass
+
+module tb;
+  name s1;
+    initial begin
+      s1=new(15,80);
+      $display("data=%0d,addr=%0d",s1.data,s1.addr);
+    end
+    endmodule
