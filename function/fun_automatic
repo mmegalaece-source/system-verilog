@@ -1,0 +1,14 @@
+module tb;
+  function automatic int count();
+      int a=0;
+    a++;
+    return a;
+  endfunction
+  
+  initial begin
+    $display("count=%0d",count());
+    $display("count=%0d",count());
+    $display("count=%0d",count());
+  end
+endmodule
+    
