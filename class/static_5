@@ -1,0 +1,23 @@
+class parents;
+  int age;
+  function void display();
+    $display("parents age=%0d",age);
+  endfunction
+endclass
+class child extends parents;
+  int marks;
+  function void show();
+    $display("marks=%0d",marks);
+  endfunction
+endclass
+module tb;
+child c;
+initial begin
+c=new();
+c.age=13;
+c.marks=90;
+
+c.display();
+c.show();
+end
+endmodule
