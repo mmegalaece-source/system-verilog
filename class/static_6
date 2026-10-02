@@ -1,0 +1,13 @@
+class student;
+  int id;
+  string name;
+endclass
+module tb;
+  student a;
+  initial begin
+  a=new();
+        a.id=102;
+        a.name="megala";
+    $display("id=%0d, name=%s", a.id, a.name);
+  end
+        endmodule
