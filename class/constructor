@@ -1,0 +1,20 @@
+class student;
+  int marks;
+  string name;
+  function new(int marks,string name);
+    this.marks=marks;
+    this.name=name;
+   endfunction
+  function void display();
+    $display("name=%s",name);
+    $display("marks=%0d",marks);
+  endfunction
+endclass
+
+module tb;
+  student s1;
+  initial begin
+    s1=new(40,"megala");
+    $display("marks=%0d,name=%s",s1.marks,s1.name);
+  end
+endmodule
