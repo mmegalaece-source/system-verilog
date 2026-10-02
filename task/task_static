@@ -1,0 +1,13 @@
+module tb;
+  static int count=0;
+  task static count_task();
+    #5;
+    count++;
+    $display("time=%0t count=%0d",$time,count);
+  endtask
+  
+  initial begin
+    count_task();
+    count_task();
+  end
+endmodule
