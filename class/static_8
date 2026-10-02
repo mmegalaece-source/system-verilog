@@ -1,0 +1,17 @@
+class sample;
+  static int s_count;
+  function count();
+    s_count++;;
+  endfunction
+endclass
+
+module tb;
+  sample s1[5];
+  initial begin
+    foreach(s1[i])begin
+      s1[i]=new();
+      s1[i].count();
+      $display("value of s_count=%0d",s1[i].s_count);
+    end
+  end
+endmodule
