@@ -1,0 +1,22 @@
+// or browse Examples
+class base;
+  function automatic void get();
+    int count;
+    count++;
+    $display("count=%0d",count);
+  endfunction
+  
+endclass
+
+module tb;
+  base b1;
+  base b2;
+  initial begin
+    b1=new();
+    b2=new();
+    
+    b1.get();
+    b1.get();
+    b2.get();
+  end
+endmodule
