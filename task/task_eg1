@@ -1,0 +1,11 @@
+module tb;
+  task value(input int value);
+   #10;
+    $display("time=%0t value=%0d",$time,value);
+  endtask
+  initial begin
+    value(10);
+    value(20);
+     
+  end
+endmodule
