@@ -1,0 +1,15 @@
+class packet;
+  rand bit[7:0]data;
+  rand bit[3:0]addr;
+endclass
+
+module tb;
+  packet p;
+  initial begin
+    p=new();
+    if(p.randomize())
+      $display("data=%h,addr=%h",p.data,p.addr);
+    else
+      $display("Randamization is failed");
+  end
+endmodule
