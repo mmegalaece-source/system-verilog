@@ -6,3 +6,14 @@ module tb;
     $display("Substring = %s", str.substr(0, 5));
   end
 endmodule
+
+
+//output
+
+String = SystemVerilog
+Substring = System
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.570 seconds;       Data structure size:   0.0Mb
+Sun Oct  4 13:33:41 2026
+Done
