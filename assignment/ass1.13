@@ -46,3 +46,21 @@ module arr;
     
   end
 endmodule
+
+// output
+
+q='{0, 1, 2, 5} 
+q='{0, 2, 5} 
+q='{7, 0, 2, 5} 
+q='{7, 0, 2, 5, 9} 
+q='{7, 0, 2, 5} 
+q='{0, 2, 5} 
+q='{5, 2, 0} 
+q='{0, 2, 5} 
+q='{5, 2, 0} 
+q='{0, 2, 5} 
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.590 seconds;       Data structure size:   0.0Mb
+Sun Oct  4 13:07:57 2026
+Done
