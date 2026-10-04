@@ -39,3 +39,20 @@ module arr;
 
   end
 endmodule
+
+
+// output
+
+first value
+                   1                   1
+next
+                   2                   2
+last
+ 9223372036854775808-9223372036854775808
+prev
+ 4611686018427387904 4611686018427387904
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.500 seconds;       Data structure size:   0.0Mb
+Sun Oct  4 13:17:29 2026
+Done
