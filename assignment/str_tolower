@@ -7,3 +7,13 @@ module tb;
     $display("Lowercase = %s", str.tolower());
   end
 endmodule
+
+// output
+
+Original = MEGALA
+Lowercase = megala
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.500 seconds;       Data structure size:   0.0Mb
+Sun Oct  4 13:34:19 2026
+Done
