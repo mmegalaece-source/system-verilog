@@ -1,0 +1,25 @@
+// Code your testbench here
+// or browse Examples
+class transaction;
+  int a;
+  function new(int data);
+    a=data;
+  endfunction
+endclass
+
+module tb;
+  transaction t1;
+  transaction t2;
+  initial begin
+    t1=new(100);
+    t2=new(78);
+    
+    $display("t1 data=%0d",t1.a);
+    $display("t2 data=%0d",t2.a);
+  end
+endmodule
+
+//output
+
+t1 data=100
+t2 data=78
