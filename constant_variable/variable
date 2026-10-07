@@ -1,0 +1,23 @@
+// Code your testbench here
+// or browse Examples
+class transaction;
+  const int id;
+  function new (int value);
+    id=value;
+  endfunction;
+  function void display();
+    $display("id=%0d",id);
+  endfunction
+endclass;
+
+module tb;
+  transaction t;
+  initial begin
+    t=new(6);
+    t.display();
+  end
+endmodule
+
+//output
+
+id=6
