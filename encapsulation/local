@@ -1,0 +1,33 @@
+// Code your testbench here
+// or browse Examples
+class parent;
+  int a,b;
+  local int c;
+  local int d=5;
+  function int sum(int val1,val2);
+    c=val1+val2;
+    return c;
+  endfunction
+  
+  function void display();
+    $display("sum=%0d",c);
+    $display("d=%0d",d);
+  endfunction
+endclass
+  
+  module tb;
+    parent p;
+    int e;
+    initial begin
+      p=new();
+      e=p.sum(5,3);
+      p.display();
+      $display("return value=%0d",e);
+    end
+  endmodule
+
+  // output
+
+  sum=8
+d=5
+return value=8
