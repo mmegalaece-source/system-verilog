@@ -1,0 +1,42 @@
+// Code your testbench here
+// or browse Examples
+class parent;
+  int a,b;
+  protected int c;
+  protected int d=3;
+  function int sum(int val1,val2);
+    c=val1+val2;
+    return c;
+  endfunction
+  
+  function void display();
+    $display("sum=%0d",c);
+    $display("d=%0d",d);
+  endfunction
+endclass
+
+class child extends parent;
+  function void disp();
+    $display("d=%0d",d);
+  endfunction
+endclass
+
+module tb;
+  parent p;
+  child c1;
+  int e;
+  initial begin
+    p=new();
+    c1=new();
+    e=p.sum(3,4);
+    p.display();
+    c1.disp();
+  end
+endmodule
+
+//output
+
+sum=7
+d=3
+d=3
+     
