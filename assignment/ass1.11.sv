@@ -51,7 +51,7 @@ module arr;
   end
 endmodule
 
-// output
+/* output
 
 q='{0, 1, 2, 5} 
 q='{0, 2, 5} 
@@ -67,4 +67,4 @@ q='{0, 2, 5}
 Time: 0 ns
 CPU Time:      0.610 seconds;       Data structure size:   0.0Mb
 Sun Oct  4 13:04:45 2026
-Done
+Done */
