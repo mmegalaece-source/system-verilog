@@ -26,8 +26,8 @@ endclass
     end
   endmodule
 
-  // output
+  /* output
 
   sum=8
 d=5
-return value=8
+return value=8  */
