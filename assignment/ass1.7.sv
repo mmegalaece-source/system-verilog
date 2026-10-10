@@ -1,5 +1,5 @@
 //Write a test bench to test string data type and its predefined methods by using the
-following statements
+/*following statements
 a. declare a string data type and assign it to“SystemVerilog”
 b. use the getc() method to display the ASCII value of the first character
 of this string
@@ -9,7 +9,7 @@ e. replace the last character in the string with character ‘b’ using len()
 method and display
 f. use substr() method to display substring from 2nd to 5th character//
 
-// Code your design here
+// Code your design here*/
 module string_eg;
   string str;
   initial begin
@@ -28,7 +28,7 @@ module string_eg;
   end
 endmodule
 
-// output
+/* output
 
 SystemVerilog
 ASCII value of the first character = 83
@@ -40,4 +40,4 @@ Substring 2nd to 5th character = yste
 Time: 0 ns
 CPU Time:      0.440 seconds;       Data structure size:   0.0Mb
 Sun Oct  4 13:13:37 2026
-Done
+Done*/
