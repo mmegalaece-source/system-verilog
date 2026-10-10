@@ -9,7 +9,7 @@ module tb;
 endmodule
 
 
-// output
+/* output
 
 String = SystemVerilog
 Length = 13
@@ -17,4 +17,4 @@ Length = 13
 Time: 0 ns
 CPU Time:      0.520 seconds;       Data structure size:   0.0Mb
 Sun Oct  4 13:31:46 2026
-Done
+Done */
