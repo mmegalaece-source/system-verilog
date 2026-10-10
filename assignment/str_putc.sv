@@ -9,11 +9,11 @@ module tb;
 endmodule
 
 
-//output
+/*output
 
 Compiler version X-2025.06-SP1_Full64; Runtime version X-2025.06-SP1_Full64;  Oct  4 13:32 2026
 String = Begala
            V C S   S i m u l a t i o n   R e p o r t 
 Time: 0 ns
 CPU Time:      0.470 seconds;       Data structure size:   0.0Mb
-Sun Oct  4 13:32:58
+Sun Oct  4 13:32:58 */
