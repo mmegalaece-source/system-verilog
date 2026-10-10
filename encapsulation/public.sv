@@ -36,8 +36,8 @@ module tb;
 endmodule
 
 
-    //output
+    /*  output
 
 sum=9
 d=5
-d=10
+d=10  */
