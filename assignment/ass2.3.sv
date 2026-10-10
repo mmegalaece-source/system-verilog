@@ -29,7 +29,7 @@ join
 endmodule
 
 
-// output
+/* output
 
 -------------------Inside Function----------------------
 @time t = 1: a = 3 and b = 3 and c =0d          8
@@ -42,4 +42,4 @@ endmodule
 Time: 2 ns
 CPU Time:      0.660 seconds;       Data structure size:   0.0Mb
 Sun Oct  4 13:20:10 2026
-Done
+Done */
