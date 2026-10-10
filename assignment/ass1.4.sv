@@ -11,7 +11,7 @@ module example;
     end
 endmodule
 
-// output 
+/*output 
 
 a = 1
 b = 1
@@ -19,4 +19,4 @@ b = 1
 Time: 0 ns
 CPU Time:      0.520 seconds;       Data structure size:   0.0Mb
 Sun Oct  4 13:11:17 2026
-Done
+Done*/
