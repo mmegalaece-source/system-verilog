@@ -34,9 +34,9 @@ module tb;
   end
 endmodule
 
-//output
+/* output
 
 sum=7
 d=3
-d=3
+d=3  */
      
