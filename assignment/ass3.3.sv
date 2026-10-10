@@ -17,7 +17,7 @@ end
 endmodule
 
 
-// output
+/* output
 
           1
           2
@@ -25,4 +25,4 @@ endmodule
            V C S   S i m u l a t i o n   R e p o r t 
 Time: 0 ns
 CPU Time:      0.470 seconds;       Data structure size:   0.0Mb
-Sun Oct  4 13:25:39 2026
+Sun Oct  4 13:25:39 2026 */
