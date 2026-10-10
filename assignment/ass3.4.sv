@@ -18,7 +18,7 @@ end
 endmodule
 
 
-// output
+/* output
 
 Compiler version X-2025.06-SP1_Full64; Runtime version X-2025.06-SP1_Full64;  Oct  4 13:27 2026
           1
@@ -28,4 +28,4 @@ Compiler version X-2025.06-SP1_Full64; Runtime version X-2025.06-SP1_Full64;  Oc
 Time: 0 ns
 CPU Time:      0.460 seconds;       Data structure size:   0.0Mb
 Sun Oct  4 13:27:22 2026
-Done
+Done */
