@@ -33,11 +33,11 @@ module arr;
   end
 endmodule
 
-// output 
+/*output 
 
 d1= 6
 d='{4, 4, 3, 8, 1, 9} 
 d='{1, 3, 4, 4, 8, 9} 
 d='{9, 8, 4, 4, 3, 1} 
 d='{4, 8, 4, 9, 1, 3} 
-           V C S   S i m u l a t i o n   R e p o r t 
+           V C S   S i m u l a t i o n   R e p o r t */
