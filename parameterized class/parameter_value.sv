@@ -23,7 +23,7 @@ module tb;
 endmodule
 
 
-    //output
+    /*  output
 
     contents of m
-b1=12,b2=8
+b1=12,b2=8  */
