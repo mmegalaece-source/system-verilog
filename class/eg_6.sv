@@ -21,3 +21,12 @@ c.display();
 c.show();
 end
 endmodule
+
+//output
+
+/*parents age=13
+marks=90
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.550 seconds;       Data structure size:   0.0Mb
+Sat Oct 10 13:29:22 2026 */
