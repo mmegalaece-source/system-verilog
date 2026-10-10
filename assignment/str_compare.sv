@@ -13,11 +13,11 @@ module tb;
 endmodule
 
 
-// output
+/* output
 
 Strings are equal
            V C S   S i m u l a t i o n   R e p o r t 
 Time: 0 ns
 CPU Time:      0.580 seconds;       Data structure size:   0.0Mb
 Sun Oct  4 13:30:26 2026
-Done
+Done */
