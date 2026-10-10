@@ -13,7 +13,7 @@ module tb;
 endmodule
 
 
-// output
+/* output
 
 data[0] = 11
 data[1] = 22
@@ -23,4 +23,4 @@ data[3] = 44
 Time: 0 ns
 CPU Time:      0.430 seconds;       Data structure size:   0.0Mb
 Sun Oct  4 13:08:58 2026
-Done
+Done*/
