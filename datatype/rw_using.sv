@@ -13,3 +13,14 @@ module rw_using;
     $display("data=%b",data);
   end
 endmodule
+
+//output
+
+/*  data=0000
+data=1010
+data=0010
+data=1111
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.570 seconds;       Data structure size:   0.0Mb
+Sat Oct 10 13:53:08 2026  */
