@@ -1,6 +1,6 @@
 //Write a test bench to test predefined array locator methods by using the following
 
-statements
+/*statements
 a. declare queues q, tq, dynamic array d, fixed array f
 b. initialize q to (1,3,5,7), d to (9,1,8,3,4,4), f to (1,6,2,6,8,6)
 c. display sum, product of elements of array q
@@ -16,7 +16,7 @@ k. find the last index in array d which matches with condition item==4
 l. find the sum of elements in array d with condition item > 7
 m. find the sum of elements in array d with condition ((item > 7) * item)
 n. find the sum of elements in array d with condition item < 8
-o. find the sum of elements in array d with condition ((item < 8)? item:0)//
+o. find the sum of elements in array d with condition ((item < 8)? item:0)//*/
 
 // Code your design here
 module arr;
@@ -75,7 +75,7 @@ module arr;
 endmodule
     
     
-// output    
+/* output    
     
     
 sum of elements=16
@@ -97,4 +97,4 @@ sum of (item<8)?item:0=12
 Time: 0 ns
 CPU Time:      0.530 seconds;       Data structure size:   0.0Mb
 Sun Oct  4 13:16:30 2026
-Done
+Done*/
