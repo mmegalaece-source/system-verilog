@@ -27,7 +27,7 @@ join
 endmodule
 
 
-// output
+/*output
 
 call 1 is disabled at t=7
 call 1 is disabled at t=11
@@ -35,4 +35,4 @@ call 1 is disabled at t=11
 Time: 11 ns
 CPU Time:      0.560 seconds;       Data structure size:   0.0Mb
 Sun Oct  4 13:23:23 2026
-Done
+Done */
