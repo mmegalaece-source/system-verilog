@@ -20,3 +20,14 @@ module tb;
     b2.get();
   end
 endmodule
+
+//output
+
+/*  count=1
+count=1
+count=1
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.520 seconds;       Data structure size:   0.0Mb
+Sat Oct 10 14:03:25 2026
+Done  */
