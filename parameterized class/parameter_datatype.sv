@@ -26,8 +26,8 @@ module tb;
   end
 endmodule
 
-//output
+/*  output
 
 data=17
 data=98
-data="megala"
+data="megala"  */
