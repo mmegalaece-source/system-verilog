@@ -12,7 +12,7 @@ module tb;
 endmodule
 
 
-// output
+/* output
 
 Compiler version X-2025.06-SP1_Full64; Runtime version X-2025.06-SP1_Full64;  Oct  4 13:31 2026
 Result = SystemVerilog
@@ -20,4 +20,4 @@ Result = SystemVerilog
 Time: 0 ns
 CPU Time:      0.640 seconds;       Data structure size:   0.0Mb
 Sun Oct  4 13:31:09 2026
-Done
+Done */
