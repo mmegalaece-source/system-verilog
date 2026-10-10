@@ -21,5 +21,5 @@ endmodule
 
 //output
 
-t1 data=100
-t2 data=78
+ /* t1 data=100
+t2 data=78 */
