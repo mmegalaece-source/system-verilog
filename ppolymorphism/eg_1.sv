@@ -36,4 +36,11 @@ module tb;
     s1.display();
   end
 endmodule
-    
+    //output
+
+/*  students marks=25
+students marks=45
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.570 seconds;       Data structure size:   0.0Mb
+Sat Oct 10 14:14:51 2026  */
