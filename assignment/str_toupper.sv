@@ -8,7 +8,7 @@ module tb;
 endmodule
 
 
-// output
+/* output
 
 Original = megala
 Uppercase = MEGALA
@@ -16,4 +16,4 @@ Uppercase = MEGALA
 Time: 0 ns
 CPU Time:      0.670 seconds;       Data structure size:   0.0Mb
 Sun Oct  4 13:35:04 2026
-Done
+Done */
