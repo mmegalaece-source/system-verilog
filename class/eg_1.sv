@@ -18,3 +18,10 @@ module tb;
     $display("marks=%0d,name=%s",s1.marks,s1.name);
   end
 endmodule
+
+//output
+/* marks=40,name=megala
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.550 seconds;       Data structure size:   0.0Mb
+Sat Oct 10 13:17:45 2026 */
