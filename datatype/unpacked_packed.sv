@@ -13,3 +13,14 @@ module unpacked;
     
   end
 endmodule
+
+//output 
+
+/*  data[0]=ab
+data[1]=ac
+data[2]=ce
+data[3]=de
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.510 seconds;       Data structure size:   0.0Mb
+Sat Oct 10 13:59:37 2026  */
