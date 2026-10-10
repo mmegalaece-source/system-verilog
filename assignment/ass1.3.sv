@@ -22,7 +22,7 @@ module example;
 endmodule
 
 
-// output  
+/* output  
 
 
 Sum = 150
@@ -30,4 +30,4 @@ Sum = 150
 Time: 0 ns
 CPU Time:      0.480 seconds;       Data structure size:   0.0Mb
 Sun Oct  4 13:09:40 2026
-Done
+Done */
