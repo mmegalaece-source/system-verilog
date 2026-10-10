@@ -15,3 +15,14 @@ module tb;
     end
   end
 endmodule
+
+//output
+/*value of s_count=1
+value of s_count=2
+value of s_count=3
+value of s_count=4
+value of s_count=5
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.490 seconds;       Data structure size:   0.0Mb
+Sat Oct 10 13:33:28 2026 */
