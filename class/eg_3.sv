@@ -16,3 +16,12 @@ module tb;
     $display("total=%0d",student::total);
   end
 endmodule
+// output
+
+/*c1 id=902
+c2 id=913
+total=2
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.540 seconds;       Data structure size:   0.0Mb
+Sat Oct 10 13:21:24 2026 */
