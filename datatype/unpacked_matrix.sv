@@ -19,5 +19,15 @@ module unpacked_2d;
     
   end
 endmodule
+
+//output 
+
+/*  10 30 40
+20 10 70
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.570 seconds;       Data structure size:   0.0Mb
+Sat Oct 10 13:58:41 2026
+Done  */
              
     
