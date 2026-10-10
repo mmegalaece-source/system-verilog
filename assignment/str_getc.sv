@@ -9,7 +9,7 @@ module tb;
 endmodule
 
 
-//output
+/*output
 
 First character = m
 Second character = e
@@ -17,4 +17,4 @@ ASCII value = 109
            V C S   S i m u l a t i o n   R e p o r t 
 Time: 0 ns
 CPU Time:      0.550 seconds;       Data structure size:   0.0Mb
-Sun Oct  4 13:32:24 2026
+Sun Oct  4 13:32:24 2026 */
