@@ -22,7 +22,7 @@ end
 endmodule
 
 
-// output 
+/* output 
 
           1
           1
@@ -34,4 +34,4 @@ endmodule
 Time: 0 ns
 CPU Time:      0.430 seconds;       Data structure size:   0.0Mb
 Sun Oct  4 13:27:58 2026
-Done
+Done  */
