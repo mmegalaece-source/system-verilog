@@ -38,7 +38,7 @@ module tb;
 endmodule
 
 
-    //output
+    /*  output
 
     students marks=25
-students marks=45
+students marks=45  */
