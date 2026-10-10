@@ -20,4 +20,4 @@ endmodule
 
 //output
 
-id=6
+ /* id=6 */
