@@ -27,7 +27,7 @@ end
 endmodule
 
 
-// output
+/* output
 
 
  ------PASS BY REFERENCE ------------
@@ -48,4 +48,4 @@ Value of VAL after incrementing           2
 Time: 0 ns
 CPU Time:      0.590 seconds;       Data structure size:   0.0Mb
 Sun Oct  4 13:22:32 2026
-Done
+Done */
