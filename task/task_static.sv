@@ -11,3 +11,13 @@ module tb;
     count_task();
   end
 endmodule
+
+//output
+
+/*  time=5 count=1
+time=10 count=2
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 10 ns
+CPU Time:      0.560 seconds;       Data structure size:   0.0Mb
+Sat Oct 10 14:09:45 2026
+Done  */
