@@ -10,3 +10,13 @@ module typedef_example;
     $display("b = %0d", b);
   end
 endmodule
+
+
+//output
+
+/*  a = 10
+b = 20
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.570 seconds;       Data structure size:   0.0Mb
+Sat Oct 10 13:55:12 2026  */
