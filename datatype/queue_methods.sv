@@ -33,3 +33,25 @@ module queue_methods;
 
   end
 endmodule
+
+//output
+
+/*  Initial Queue = '{10, 20, 30, 40} 
+size = 4
+after insert = '{50, 10, 20, 30, 40} 
+after delete = '{50, 20, 30, 40} 
+after pop_front = '{20, 30, 40, 50} 
+after pop_back = '{20, 30, 40} 
+after push_front = '{10, 20, 30, 40} 
+after push_back = '{10, 20, 30, 40, 100} 
+min = 10
+max = 80
+after reverse = '{40, 30, 20, 100} 
+after sort = '{20, 30, 40, 100} 
+after rsort = '{100, 40, 30, 20} 
+after shuffle = '{30, 20, 40, 100} 
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.530 seconds;       Data structure size:   0.0Mb
+Sat Oct 10 13:52:04 2026
+Done  */
