@@ -11,4 +11,13 @@ module queue_example;
         $display("Removed = %0d", data);
         $display("Queue = %p", q);
     end
-endmodule`
+endmodule
+//output
+
+/*  Removed = 10
+Queue = '{20, 30} 
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.570 seconds;       Data structure size:   0.0Mb
+Sat Oct 10 14:12:13 2026
+Done  */
