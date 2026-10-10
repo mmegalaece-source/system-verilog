@@ -16,4 +16,19 @@ module str_methods;
     $display("s2 substr=%s",s2.substr(0,2));
   end
 endmodule
-    
+
+//output
+
+/*  
+    s1 getc(1)=e
+s1 len()=6
+s3 putc()=begala
+s3 toupper=begala
+s3 tolower=begala
+s1 compare=????
+s2 substr=meg
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.570 seconds;       Data structure size:   0.0Mb
+Sat Oct 10 13:54:04 2026
+Done  */
