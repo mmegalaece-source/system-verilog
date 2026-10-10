@@ -1,6 +1,6 @@
 //Write the SystemVerilog code to:
 
-a) Declare a 2-state array, my_array, that holds four 12-bit values
+/*a) Declare a 2-state array, my_array, that holds four 12-bit values
 b) initialize my_array so that:
 i. my_array[0] = 12’h012
 ii. my_array[1] = 12’h345,
@@ -10,7 +10,7 @@ c) Traverse my_array and print out bits [5:4] of each 12-bit element
 
 I. Using a for loop
 II. Using a foreach loop11//
-// Code your design here
+// Code your design here*/
 
 module tb;
   bit[11:0] my_array[3:0];
@@ -33,7 +33,7 @@ module tb;
   end
 endmodule
    
-// output
+/* output
 
 Using FOR loop
 my_array[0][5:4] = 01
@@ -49,4 +49,4 @@ my_array[0][5:4] = 01
 Time: 0 ns
 CPU Time:      0.460 seconds;       Data structure size:   0.0Mb
 Sun Oct  4 13:12:31 2026
-Done
+Done */
